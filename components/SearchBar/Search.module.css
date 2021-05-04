@@ -2,18 +2,20 @@
 	margin-bottom: 64px;
 	display: flex;
 	align-items: center;
-	width: 300px;
+	width: 800px;
 }
 .coin_input {
 	background-color: #222531;
 	color: #e2e2e2;
 	border: none;
 	padding: 16px;
-	border-radius: 4px;
+	border-radius: 2%;
 	outline: none;
 	height: 100%;
 	width: 100%;
+	text-align: center;
 }
 .coin_input::placeholder {
 	color: #e2e2e2;
+	font-size: 25px;
 }
