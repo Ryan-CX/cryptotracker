@@ -18,7 +18,7 @@ export default function Home({ data }) {
 		<Layout>
 			<div className='coin_app'>
 				<SearchBar type='text' placeholder='search' onChange={handleChange} />
-				<CoinList filteredCoins={allCoins} />
+				<CoinList filteredCoins={allCoins} /> {/*Coins->CoinList */}
 			</div>
 		</Layout>
 	);
